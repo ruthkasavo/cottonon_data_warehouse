@@ -32,14 +32,14 @@ To maintain a professional environment, the files are organized by their functio
 
 ```text
 ├── schema/                 # Database Definition (DDL)
-│   ├── Fact_Sales_Table.sql
-│   ├── Dim_Customer_Table.sql
-│   ├── Dim_Date_Table.sql
-│   ├── Dim_Product_Table.sql
-│   └── Dim_Store_Table.sql
+│   ├── fact_sales.sql
+│   ├── dim_customer.sql
+│   ├── dim_date.sql
+│   ├── dim_product.sql
+│   └── dim_store.sql
 ├── data/                   # Sample Data Population (DML)
-│   ├── Fact_Sales_Values.sql
-│   └── Dim_*_Values.sql
+│   ├── Fact_Sales.sql
+│   └── Dim_*_values.sql
 ├── queries/                # Analytical SQL Scripts
 │   └── cottonon_analysis.sql
 └── README.md               # Project Documentation

@@ -43,3 +43,5 @@ To maintain a professional environment, the files are organized by their functio
 ├── queries/                # Analytical SQL Scripts
 │   └── cottonon_analysis.sql
 └── README.md               # Project Documentation
+### Database Schema
+![Retail Store Star Schema](images/cottonon_schema_diagram.png)
